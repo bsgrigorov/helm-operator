@@ -1,3 +1,5 @@
+[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-operator)](https://artifacthub.io/packages/search?repo=helm-operator)
+
 # Helm Operator
 Helm operator is a helm based operator using the [Operator SDK](https://sdk.operatorframework.io/docs/building-operators/helm/tutorial/).
 
