@@ -1,4 +1,0 @@
-# multi-value for testing environment. 
-images:
-  operator: bsgrigorov/helm-operator:latest
-  pullPolicy: Always

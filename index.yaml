@@ -1,0 +1,38 @@
+apiVersion: v1
+entries:
+  helm-operator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-06-10T20:51:03.663117-07:00"
+    description: A Helm chart for Helm Operator from the Operator Framework
+    digest: 9a5b850a79bfc15769798c0a0dc85bfb2d6c0c10cb6f47951462f9b4724c859d
+    home: https://github.com/bsgrigorov/helm-operator
+    keywords:
+    - operatorsdk
+    - operator
+    - operatorframework
+    kubeVersion: '>=1.10.0-0'
+    name: helm-operator
+    sources:
+    - https://github.com/bsgrigorov/helm-operator
+    urls:
+    - https://bsgrigorov.github.io/helm-operator/helm-operator-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-06-10T20:51:03.662622-07:00"
+    description: A Helm chart for Helm Operator from the Operator Framework
+    digest: 776376f9a0082a3fab5a820147726b9a7311f0f5d4ed01ac456e112e0fd0cf10
+    home: https://github.com/bsgrigorov/helm-operator
+    keywords:
+    - operatorsdk
+    - operator
+    - operatorframework
+    kubeVersion: '>=1.10.0-0'
+    name: helm-operator
+    sources:
+    - https://github.com/bsgrigorov/helm-operator
+    urls:
+    - https://bsgrigorov.github.io/helm-operator/helm-operator-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-06-10T20:51:03.661749-07:00"
