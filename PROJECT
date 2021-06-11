@@ -1,0 +1,8 @@
+domain: example.com
+layout: helm.sdk.operatorframework.io/v1
+projectName: helm-operator
+resources:
+- group: example
+  kind: MyExporter
+  version: v1
+version: 3-alpha

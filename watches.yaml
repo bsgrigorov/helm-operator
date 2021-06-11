@@ -1,0 +1,6 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: example.com
+  version: v1
+  kind: MyExporter
+  chart: helm-charts/myexporter
+# +kubebuilder:scaffold:watch

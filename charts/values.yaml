@@ -1,0 +1,14 @@
+images:
+  pullPolicy: IfNotPresent
+  env: {}
+
+service:
+  port: 80
+
+resources:
+  requests:
+    cpu: 0.125
+    memory: 256Mi
+  limits:
+    cpu: 0.125
+    memory: 256Mi
