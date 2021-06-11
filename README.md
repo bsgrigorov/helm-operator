@@ -34,7 +34,6 @@ kubectl apply -f charts/templates/crds/
 Install the helm-chart managed by the operator
 ```
 helm upgrade -i pgexp helm-charts/myexporter/ -f helm-charts/myexporter/values.test.yaml
-kubectl port-forward service/myexporter-pgexp 8080:80
 ```
 Navigate to localhost:8080/metrics to see the exposed metrics. You can also connect to the mock DB that is running inside a sidecar container in the exporter pod and run some queries.
 
