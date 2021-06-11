@@ -1,6 +1,8 @@
 images:
   pullPolicy: IfNotPresent
   env: {}
+  operator: bsgrigorov/helm-operator:latest
+  pullPolicy: Always
 
 service:
   port: 80
