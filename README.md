@@ -1,3 +1,4 @@
+[![Docker](https://img.shields.io/docker/cloud/build/eaudeweb/scratch?label=Docker&style=flat)](https://hub.docker.com/r/bsgrigorov/helm-operator/builds)
 [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/helm-operator)](https://artifacthub.io/packages/search?repo=helm-operator)
 
 # Helm Operator
