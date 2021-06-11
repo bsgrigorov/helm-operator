@@ -52,3 +52,11 @@ kubectl get pgx
 3. Add the corresponding helm chart in [helm-charts](helm-charts). Make sure the names match.
 4. Add a sample in [samples](samples).
 5. Add watcher to [watches.yaml](watches.yaml).
+
+# Github Pages Website
+```
+helm lint chart/
+helm package chart/
+helm repo index --url https://bsgrigorov.github.io/helm-operator/ .
+```
+Add the package and index.yaml to branch `gh-pages`, commit and push.
