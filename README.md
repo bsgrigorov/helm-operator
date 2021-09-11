@@ -12,7 +12,7 @@ Make your code changes and create a PR.
 ## Testing
 
 ### Using a test cluster
-If adding new CRDs or charts in [helm-charts](helm-charts) make sure to build the new docker image and push it to harbor. 
+If adding new CRDs or charts in [helm-charts](helm-charts) make sure to build the new docker image and push it to your docker registry. 
 ```
 docker-compose build
 docker push bgrigorov/helm-operator:test
@@ -60,3 +60,6 @@ helm package chart/
 helm repo index --url https://bsgrigorov.github.io/helm-operator/ .
 ```
 Add the package and index.yaml to branch `gh-pages`, commit and push.
+
+# TODO
+Add github workflow files for pushing docker images and helm charts
